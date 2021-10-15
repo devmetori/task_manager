@@ -1,7 +1,7 @@
 export default class Timer {
-    constructor(picker, root) {
+    constructor(root) {
       root.innerHTML = Timer.view();
-      this.timePicker = picker;
+    
       this.el = {
         hours: root.querySelector(".timer__part--hours"),
         minutes: root.querySelector(".timer__part--minutes"),
